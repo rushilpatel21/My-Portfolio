@@ -11,7 +11,8 @@
     transform: translateX(-50%);
     margin-top: 15px;
     z-index: 1000; 
-
+    -webkit-user-select: none;
+    user-select: none;
   }
   
   .navbar-options {
