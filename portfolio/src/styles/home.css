@@ -1,0 +1,38 @@
+.home-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: flex-start;
+    height: 100%;
+    text-align: center;
+    flex-direction: column;
+}
+
+.Home-Name{
+    margin-top: 10px;
+    font-size: 160px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.home-social-media{
+    display: flex;
+    justify-content: center;
+    left: 50% !important;
+    transform: translate(50%, 50%);
+}
+
+.home-social-icon{
+    display: inline-flex;;
+    width: 32px !important;
+    align-items: center;
+    /* margin-right:80px; */
+    /* margin-left:150px; */
+    /* margin-top: 5px; */
+    height: 5px;
+}
+
+.home-social-icon + .home-social-icon{
+    margin-left: 100px;
+}
