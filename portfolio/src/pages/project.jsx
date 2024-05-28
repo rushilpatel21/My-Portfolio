@@ -1,4 +1,3 @@
-// import React from 'react';
 import '../styles/projects.css';
 import githubIcon from '../assets/github.png';
 import linkIcon from '../assets/link.png';
