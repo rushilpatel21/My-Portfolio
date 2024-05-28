@@ -1,0 +1,13 @@
+.contact-page {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 60px;
+    -webkit-user-select: none;
+    user-select: none;
+}
+  
+  

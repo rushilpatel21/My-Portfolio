@@ -52,7 +52,7 @@ const Projects = () => {
   return (
     <section className="projects-section project-page" id='projects'>
       <h1>My Projects</h1>
-      <p>Some tag line....</p>
+      <p>Check out what I&apos;ve made</p>
       <div className="projects-grid">
         {projects.map((project, index) => (
           <div key={index} className="project-card">
