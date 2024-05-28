@@ -1,13 +1,81 @@
 .contact-page {
     display: flex;
     justify-content: center;
-    height: 100vh;
+    align-items: center;
+    min-height: 80vh;
+    margin-top: 55px;
+    text-align: center;
     flex-direction: column;
     width: 100%;
     box-sizing: border-box;
-    margin-top: 60px;
     -webkit-user-select: none;
     user-select: none;
-}
+  }
   
+  .contact-section {
+    padding: 40px 20px;
+    background-color: #1e1e1e;
+    border-radius: 30px;
+    /* color: #ffffff; */
+    text-align: center;
+  }
   
+  .contact-section h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .form-group label {
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+  }
+  
+  .form-group input {
+    height: 40px;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #444444;
+    /* color: #ffffff; */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #555555;
+  }
+  
+  .form-group .form-req-red {
+    color: red;
+  }
