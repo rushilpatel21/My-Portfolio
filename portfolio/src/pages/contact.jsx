@@ -6,9 +6,9 @@ import '../styles/contact.css';
 
 const ContactForm = () => {
   const MySwal = withReactContent(Swal);
-  // const template_id = process.env.REACT_APP_EMAIL_TEMPLATE_ID;
-  // const service_id = process.env.REACT_APP_EMAIL_SERVICE_ID;
-  // const user_id = process.env.REACT_APP_EMAIL_USER_ID;
+  const template_id = import.meta.env.VITE_EMAIL_TEMPLATE_ID;
+  const service_id = import.meta.env.VITE_EMAIL_SERVICE_ID;
+  const user_id = import.meta.env.VITE_EMAIL_USER_ID;
 
   const [formData, setFormData] = useState({
     email: '',
@@ -29,9 +29,9 @@ const ContactForm = () => {
     e.preventDefault();
 
     const data = {
-      service_id: 'service_6kw8zt2',
-      template_id: 'template_xctu42n',
-      user_id: 'VbMSICuUu4za4xc_g',
+      service_id: service_id,
+      template_id: template_id,
+      user_id: user_id,
       template_params: {
         from_name: formData.name,
         from_email: formData.email,
