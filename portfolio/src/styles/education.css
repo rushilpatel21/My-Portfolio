@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: auto;
+    min-height: 50vh;
     text-align: center;
     flex-direction: column;
     width: 100%;
@@ -17,7 +17,7 @@
     /* padding: 40px 20px; */
     background-color: #1e1e1e;
     border-radius: 30px;
-    color: #ffffff;
+    /* color: #ffffff; */
     text-align: center;
   }
   
@@ -50,12 +50,12 @@
   
   .education-card h3 {
     font-size: 24px;
-    margin-bottom: 5px; /* Adjusted margin */
+    margin-bottom: 5px;
   }
   
   .education-card p {
     font-size: 16px;
-    margin-top: 5px; /* Adjusted margin */
+    margin-top: 5px;
   }
   
   .education-details {
@@ -83,7 +83,7 @@
   }
   
   .education-logo img {
-    width: 240px; /* Increased image size */
+    width: 240px;
     height: auto;
     border-radius: 10px;
   }
