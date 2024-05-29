@@ -4,7 +4,7 @@ const skillsData = {
   Languages: ['C++', 'Java', 'JavaScript', 'Python'],
   Frameworks: ['React', 'Node.js', 'Express'],
   Databases: ['MongoDB', 'SQL*Plus'],
-  Tools: ['VS Code', 'Postman','Git']
+  Tools: ['VS Code', 'Postman','Git','MongoDBCompass','Jupyter Notebook','IntelliJ Idea','Matlab','Google Colab']
 };
 
 const Skills = () => {
