@@ -7,7 +7,8 @@ const About = () => {
         <div className='about-page' id='about'>
             <div className='about-text'>
                 <h2>About</h2>
-                <p className='about-intro-para'>I am a passionate and dedicated Software Engineer with a strong background in developing robust and scalable web applications. With a solid foundation in computer science principles and a keen eye for detail, I thrive on turning complex problems into elegant solutions. My expertise spans across multiple programming languages and frameworks, allowing me to adapt quickly to new technologies and environments. Whether working independently or as part of a collaborative team, I am committed to continuous learning and innovation, always striving to deliver high-quality code and exceptional user experiences. In my career, I have successfully contributed to numerous projects, driving efficiency and performance improvements while maintaining a focus on usability and maintainability.</p>
+                <p className='about-intro-para'>
+                I&apos;m Rushil Patel, a second-year Computer Science and Engineering student at Nirma University. Driven by a lifelong passion for technology, I&apos;ve honed my skills in programming languages like C++, Java, JavaScript and Python and I&apos;ve undertaken diverse projects, like Full Stack Web Development (MERN). With a competitive edge in platforms like CodeForces and LeetCode, and active involvement in technical communities like the Computer Society of India (CSI), Google Developer Student Club (GDSC), I&apos;m committed to pushing boundaries and shaping the future of technology through innovation and collaboration.                </p>
             </div>
             <div className='about-image'>
                 <img src={profileImage} alt="Profile" />
