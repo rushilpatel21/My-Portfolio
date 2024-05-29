@@ -7,13 +7,13 @@ import Skills from './pages/skills.jsx';
 import Education from './pages/education.jsx';
 import Certificates from './pages/certificate.jsx';
 import Contact from './pages/contact.jsx';
+import CustomCursor from './components/customCursor.jsx';
 
 function App() {
 
-  // TODO : Change some CSS in Project to make it more github like, add a custom cursor (circlish and it should change into the block/button), Contact will have a mail type form
-
   return (
     <>
+      <CustomCursor/>
       <Navbar/>
       <Home/>
       <About/>
