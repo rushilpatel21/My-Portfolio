@@ -29,7 +29,7 @@ const projects = [
     description: 'My personal website, built with ReactJS.',
     tags: ['ReactJS'],
     github: 'https://github.com/rushilpatel21/My-Portfolio',
-    link: '#',
+    link: 'https://rushil21.vercel.app/',
   },
   {
     title: 'Client Connect',
