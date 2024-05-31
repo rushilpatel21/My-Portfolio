@@ -1,4 +1,4 @@
-.home-page{
+.home-page {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,7 +9,7 @@
     box-sizing: border-box;
 }
 
-.Home-Name{
+.Home-Name {
     margin-top: 10px;
     font-size: 160px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -17,23 +17,37 @@
     user-select: none;
 }
 
-.home-social-media{
+.home-social-media {
     display: flex;
     justify-content: center;
     margin-top: 20px;
-    width: 100%; 
+    width: 100%;
 }
 
-.home-social-icon{
-    display: inline-flex;;
-    width: 32px !important;
+.home-social-icon button {
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    background: none !important;
+    /* cursor: pointer; */
+    display: flex;
     align-items: center;
-    /* margin-right:80px; */
-    /* margin-left:150px; */
-    /* margin-top: 5px; */
-    height: 5px;
+    justify-content: center;
 }
 
-.home-social-icon + .home-social-icon{
+.home-social-icon {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 20px;
+    height: auto; 
+}
+
+.home-social-icon img {
+    width: 52px;
+    height: auto;
+    display: block;
+}
+
+.home-social-icon + .home-social-icon {
     margin-left: 100px;
 }

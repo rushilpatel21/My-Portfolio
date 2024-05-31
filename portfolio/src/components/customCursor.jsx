@@ -3,7 +3,9 @@ import '../styles/customCursor.css';
 
 const CustomCursor = () => {
   useEffect(() => {
-    const cursor = document.querySelector('.custom-cursor');
+    const cursor = document.createElement('div');
+    cursor.classList.add('custom-cursor');
+    document.body.appendChild(cursor);
 
     const onMouseMove = (e) => {
       cursor.style.left = `${e.pageX}px`;
@@ -30,7 +32,8 @@ const CustomCursor = () => {
     document.addEventListener('mousedown', onMouseDown);
     document.addEventListener('mouseup', onMouseUp);
 
-    document.querySelectorAll('a, button, input, textarea').forEach((element) => {
+    const interactiveElements = document.querySelectorAll('a, button, input, textarea');
+    interactiveElements.forEach((element) => {
       element.addEventListener('mouseenter', onMouseEnter);
       element.addEventListener('mouseleave', onMouseLeave);
     });
@@ -40,14 +43,16 @@ const CustomCursor = () => {
       document.removeEventListener('mousedown', onMouseDown);
       document.removeEventListener('mouseup', onMouseUp);
 
-      document.querySelectorAll('a, button, input, textarea').forEach((element) => {
+      interactiveElements.forEach((element) => {
         element.removeEventListener('mouseenter', onMouseEnter);
         element.removeEventListener('mouseleave', onMouseLeave);
       });
+
+      document.body.removeChild(cursor);
     };
   }, []);
 
-  return <div className="custom-cursor"></div>;
+  return null;
 };
 
 export default CustomCursor;
