@@ -8,11 +8,13 @@ import Education from './pages/education.jsx';
 import Certificates from './pages/certificate.jsx';
 import Contact from './pages/contact.jsx';
 import CustomCursor from './components/customCursor.jsx';
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
 
   return (
     <>
+      <Analytics/>
       <CustomCursor/>
       <Navbar/>
       <Home/>

@@ -10,7 +10,8 @@
 }
 
 .Home-Name {
-    margin-top: 10px;
+    margin-top: -20px;
+    margin-bottom: -15px;
     font-size: 160px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     -webkit-user-select: none;
@@ -20,7 +21,7 @@
 .home-social-media {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     width: 100%;
 }
 
@@ -38,7 +39,7 @@
 .home-social-icon {
     display: inline-flex;
     align-items: center;
-    margin-right: 20px;
+    margin-right: 4px;
     height: auto; 
 }
 
