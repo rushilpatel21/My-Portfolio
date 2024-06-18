@@ -4,16 +4,23 @@ import linkIcon from '../assets/link.png';
 
 const projects = [
   {
+    title: 'CivicPulse',
+    description: '(WIP) Currently working on it :) .',
+    tags: ['ExpressJS', 'ReactJS', 'NodeJS' ,'MongoDB', 'Google Cloud Services', 'Cookies' ],
+    github: '#',
+    link: '#',
+  },
+  {
     title: 'FitFreak',
     description: 'Elevate your fitness game with FitFreak: Your all-in-one workout companion.',
-    tags: ['ExpressJS', 'ReactJS', 'NodeJS' ,'MongoDB' , 'Fitness-Tracker'],
+    tags: ['ExpressJS', 'ReactJS', 'NodeJS' ,'MongoDB' , 'Fitness-Tracker', 'Cookies' ],
     github: 'https://github.com/rushilpatel21/FitFreak',
     link: 'https://fitfreak.vercel.app/',
   },
   {
     title: 'Learning Management System',
     description: 'Designed and implemented a Learning Management System (LMS) which follows Object Oriented Principles.',
-    tags: ['Java', 'OOP', 'LMS'],
+    tags: ['Java', 'Object-Oriented-Programming', 'LMS'],
     github: 'https://github.com/rushilpatel21/Learning-Management-System',
     link: '#',
   },
@@ -51,7 +58,7 @@ const Projects = () => {
   return (
     <section className="projects-section project-page" id='projects'>
       <h1>My Projects</h1>
-      <p>Check out what I&apos;ve made</p>
+      <p>Check out some cool stuff I&apos;ve made!!!</p>
       <div className="projects-grid">
         {projects.map((project, index) => (
           <div key={index} className="project-card">

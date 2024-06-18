@@ -5,6 +5,7 @@ const Navbar = () => {
     <nav className="navbar">
       <a className='navbar-options' href="#home">Home</a>
       <a className='navbar-options' href="#about">About</a>
+      <a className='navbar-options' href="#experience">Experience</a>
       <a className='navbar-options' href="#projects">Projects</a>
       <a className='navbar-options' href="#skills">Skills</a>
       <a className='navbar-options' href="#education">Education</a>

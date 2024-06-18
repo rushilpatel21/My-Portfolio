@@ -1,9 +1,10 @@
 import '../styles/skills.css';
 
 const skillsData = {
-  Languages: ['C++', 'Java', 'JavaScript', 'Python'],
-  Frameworks: ['React', 'Node.js', 'Express'],
-  Databases: ['MongoDB', 'SQL*Plus'],
+  Languages: ['C++', 'Java', 'JavaScript', 'Python', 'C'],
+  Frameworks: ['ReactJS', 'NodeJS', 'ExpressJS'],
+  Databases: ['MongoDB', 'SQL*Plus', 'AWS DynamoDB'],
+  "Cloud Services": ['AWS Bedrock', 'AWS Lambda', 'Render', 'Vercel'],
   Tools: ['VS Code', 'Postman','Git','MongoDBCompass','Jupyter Notebook','Google Colab']
 };
 

@@ -8,16 +8,16 @@ import rushilResume from '../assets/Rushil\'s Resume.pdf';
 const Home = () => {
 
     const downloadResume = () => {
-        fetch(rushilResume).then((response) => {
-            response.blob().then((blob) => {
+        // fetch(rushilResume).then((response) => {
+        //     response.blob().then((blob) => {
              
-                const fileURL = window.URL.createObjectURL(blob);
-                let alink = document.createElement("a");
-                alink.href = fileURL;
-                alink.download = 'Rushil\'s Resume';
-                alink.click();
-            });
-        });
+        //         const fileURL = window.URL.createObjectURL(blob);
+        //         let alink = document.createElement("a");
+        //         alink.href = fileURL;
+        //         alink.download = 'Rushil\'s Resume';
+        //         alink.click();
+        //     });
+        // });
     }
 
   return (

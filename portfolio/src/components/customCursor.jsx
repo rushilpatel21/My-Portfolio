@@ -3,6 +3,13 @@ import '../styles/customCursor.css';
 
 const CustomCursor = () => {
   useEffect(() => {
+
+    const supportsHover = matchMedia('(hover: hover)').matches;
+
+    if (!supportsHover) {
+      return;
+    }
+
     const cursor = document.createElement('div');
     cursor.classList.add('custom-cursor');
     document.body.appendChild(cursor);

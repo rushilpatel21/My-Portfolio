@@ -21,7 +21,6 @@
 .home-social-media {
     display: flex;
     justify-content: center;
-    /* margin-top: 20px; */
     width: 100%;
 }
 
@@ -30,7 +29,6 @@
     padding: 0 !important;
     margin: 0 !important;
     background: none !important;
-    /* cursor: pointer; */
     display: flex;
     align-items: center;
     justify-content: center;

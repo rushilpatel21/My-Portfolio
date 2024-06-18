@@ -6,7 +6,7 @@ const educationData = [
     university: 'Institute of Technology, Nirma University',
     degree: 'Bachelor of Technology in Computer Science & Engineering',
     year: '2022-2026',
-    coursework: ['Introduction to AI/ML', 'Data Structures and Algorithm', 'Object Oriented Programming', 'Database Management System', 'Operating System', 'Computer Architecture', 'Data Communication', 'Mathematics', 'Statistics'],
+    coursework: ['Introduction to AI & ML', 'Data Structures & Algorithm', 'Object Oriented Programming', 'Database Management System', 'Operating System', 'Computer Architecture', 'Data Communication', 'Mathematics', 'Statistics'],
     logo: nirmaLogo,
     gpa: '8.95',
   }
