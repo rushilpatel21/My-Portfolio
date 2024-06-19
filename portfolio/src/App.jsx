@@ -11,6 +11,10 @@ import Contact from './pages/contact.jsx';
 import CustomCursor from './components/customCursor.jsx';
 import { Analytics } from "@vercel/analytics/react"
 
+// TODO: 
+// 1) Fix the bug for the background turning white on mobile devices when light mode is enabled.
+// 2) Add navlink from react-router and change icons.
+
 function App() {
 
   return (
