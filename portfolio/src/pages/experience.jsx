@@ -7,7 +7,7 @@ const experienceData = [
     name: 'Technotery',
     position: 'Assistant Software Engineer - Trainee',
     description: [
-        'Developing a voice-command-based web application for finance management, similar to Splitwise, enhancing user interaction through speech recognition.',
+        'Developed a voice-command-based web application for finance management, similar to Splitwise, enhancing user interaction through speech recognition.',
         'Utilized ReactJS with react-speech-recognition for speech-to-text functionality on the frontend and implemented backend services using NodeJS with Express.',
         'Leveraged Amazon Bedrock (AWS) for extracting relevant information from user commands, employed Amazon DynamoDB for data storage and management and utilized AWS Lambda for deploying serverless functions.'
       ],
