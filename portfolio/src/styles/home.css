@@ -41,12 +41,6 @@
     height: auto; 
 }
 
-.home-social-icon img {
-    width: 52px;
-    height: auto;
-    display: block;
-}
-
 .home-social-icon + .home-social-icon {
-    margin-left: 100px;
+    margin-left: 70px;
 }
