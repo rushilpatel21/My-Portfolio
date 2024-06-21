@@ -18,11 +18,11 @@ const projects = [
     link: 'https://fitfreak.vercel.app/',
   },
   {
-    title: 'Learning Management System',
-    description: 'Designed and implemented a Learning Management System (LMS) which follows Object Oriented Principles.',
-    tags: ['Java', 'Object-Oriented-Programming', 'LMS'],
-    github: 'https://github.com/rushilpatel21/Learning-Management-System',
-    link: '#',
+    title: 'My Portfolio',
+    description: 'My personal website, built with ReactJS.',
+    tags: ['ReactJS'],
+    github: 'https://github.com/rushilpatel21/My-Portfolio',
+    link: 'https://rushil21.vercel.app/',
   },
   {
     title: 'Cricket Player Statistics Management System',
@@ -32,11 +32,11 @@ const projects = [
     link: '#',
   },
   {
-    title: 'My Portfolio',
-    description: 'My personal website, built with ReactJS.',
-    tags: ['ReactJS'],
-    github: 'https://github.com/rushilpatel21/My-Portfolio',
-    link: 'https://rushil21.vercel.app/',
+    title: 'Learning Management System',
+    description: 'Designed and implemented a Learning Management System (LMS) which follows Object Oriented Principles.',
+    tags: ['Java', 'Object-Oriented-Programming', 'LMS'],
+    github: 'https://github.com/rushilpatel21/Learning-Management-System',
+    link: '#',
   },
   {
     title: 'Client Connect',
