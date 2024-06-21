@@ -1,8 +1,9 @@
 import { HashLink as Link } from 'react-router-hash-link';
-import useScrollSpy from '../hooks/useScrollSpy'; // Adjust the path as necessary
+import useScrollSpy from '../hooks/useScrollSpy';
 import '../styles/navbar.css';
 
 const Navbar = () => {
+
   const sectionIds = [
     'home',
     'about',
@@ -13,8 +14,9 @@ const Navbar = () => {
     'certificates',
     'contact'
   ];
-  const activeSection = useScrollSpy(sectionIds, 100); // Adjust offset as needed
 
+  const activeSection = useScrollSpy(sectionIds, 100);
+  
   return (
     <nav className="navbar">
       <Link className={`navbar-options ${activeSection === 'home' ? 'active' : ''}`} smooth to="#home">Home</Link>

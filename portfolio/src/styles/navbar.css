@@ -31,4 +31,15 @@ html {
 .navbar-options:hover {
   color: rgba(255, 0, 0, 0.7);
 }
-  
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .navbar-options {
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+}
