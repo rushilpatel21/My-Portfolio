@@ -15,8 +15,8 @@ import { Analytics } from "@vercel/analytics/react";
 function App() {
   return (
     <>
-      <CustomCursor/>
       <Analytics/>
+      <CustomCursor/>
       <Router>
         <Navbar/>
         <main>
