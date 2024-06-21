@@ -5,6 +5,7 @@ import discordIcon from '../assets/discord.png';
 import downloadIcon from '../assets/resume.png';
 import rushilResume from '../assets/Rushil\'s Resume.pdf';
 
+
 const Home = () => {
 
     const downloadResume = () => {
