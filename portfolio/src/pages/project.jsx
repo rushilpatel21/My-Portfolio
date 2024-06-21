@@ -13,7 +13,7 @@ const projects = [
   {
     title: 'FitFreak',
     description: 'Elevate your fitness game with FitFreak: Your all-in-one workout companion.',
-    tags: ['ExpressJS', 'ReactJS', 'NodeJS' ,'MongoDB' , 'Fitness-Tracker', 'Cookies' ],
+    tags: ['ExpressJS', 'ReactJS', 'NodeJS' ,'MongoDB', 'Cookies' ],
     github: 'https://github.com/rushilpatel21/FitFreak',
     link: 'https://fitfreak.vercel.app/',
   },
