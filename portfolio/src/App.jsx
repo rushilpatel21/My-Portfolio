@@ -11,10 +11,12 @@ import Contact from './pages/contact.jsx';
 import CustomCursor from './components/customCursor.jsx';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 function App() {
   return (
-    <>
+    <> 
+      <SpeedInsights/>
       <Analytics/>
       <CustomCursor/>
       <Router>
