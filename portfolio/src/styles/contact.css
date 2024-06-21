@@ -2,8 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 80vh;
-    margin-top: 55px;
+    min-height: 100vh;
     text-align: center;
     flex-direction: column;
     width: 100%;
@@ -13,7 +12,6 @@
   }
   
   .contact-section {
-    padding: 40px 20px;
     border-radius: 30px;
     text-align: center;
   }

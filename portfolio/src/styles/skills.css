@@ -5,13 +5,12 @@
     flex-direction: column;
     width: 100%;
     box-sizing: border-box;
-    margin-top: 60px;
     -webkit-user-select: none;
     user-select: none;
+    min-height: 100vh;
   }
   
   .skills-section {
-    padding: 20px;
     text-align: center; 
   }
   
@@ -37,7 +36,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding-left: 20px; 
+    padding-left: 40px; 
   }
   
   .skills-category {
