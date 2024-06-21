@@ -1,4 +1,4 @@
-import './styles/App.css'
+import './styles/App.css';
 import Navbar from './components/navbar.jsx';
 import Home from './pages/home.jsx';
 import About from './pages/about.jsx';
@@ -9,28 +9,29 @@ import Education from './pages/education.jsx';
 import Certificates from './pages/certificate.jsx';
 import Contact from './pages/contact.jsx';
 import CustomCursor from './components/customCursor.jsx';
-import { Analytics } from "@vercel/analytics/react"
-
-// TODO: 
-// 2) Add navlink from react-router and change icons.
+import { BrowserRouter as Router } from 'react-router-dom';
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
-
   return (
     <>
-      <Analytics/>
       <CustomCursor/>
-      <Navbar/>
-      <Home/>
-      <About/>
-      <Experience/>
-      <Projects/>
-      <Skills/>
-      <Education/>
-      <Certificates/>
-      <Contact/>
+      <Analytics/>
+      <Router>
+        <Navbar/>
+        <main>
+          <Home />
+          <About />
+          <Experience />
+          <Projects />
+          <Skills />
+          <Education />
+          <Certificates />
+          <Contact />
+        </main>
+      </Router>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

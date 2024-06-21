@@ -6,8 +6,8 @@ const certificatesData = [
     description: 'Awarded for scoring 9.43 SGPA in SEM - III',
   },
   {
-    name: '2x Certificate of Scholar (Nirma University)',
-    description: 'Awarded for scoring 8.57 and 8.83 SGPA in SEM - I and II respectively',
+    name: '3x Certificate of Scholar (Nirma University)',
+    description: 'Awarded for scoring 8.57, 8.83 and 8.67 SGPA in SEM - I, II and III respectively',
   }
 ];
 

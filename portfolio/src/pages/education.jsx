@@ -8,7 +8,7 @@ const educationData = [
     year: '2022-2026',
     coursework: ['Introduction to AI & ML', 'Data Structures & Algorithm', 'Object Oriented Programming', 'Database Management System', 'Operating System', 'Computer Architecture', 'Data Communication', 'Mathematics', 'Statistics'],
     logo: nirmaLogo,
-    gpa: '8.95',
+    gpa: '8.88',
   }
 ];
 
