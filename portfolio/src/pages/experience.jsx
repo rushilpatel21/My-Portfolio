@@ -39,11 +39,11 @@ const Experience = () => {
             <h4>{experience.position}</h4>
             <div className="experience-details">
               <div className="experience-info">
-                <ol>
+                <ul>
                   {experience.description.map((point, index) => (
                     <li key={index}>{point}</li>
                   ))}
-                </ol>
+                </ul>
                 <div className="experience-tags">
                   {experience.tags.map((tag, index) => (
                     <span key={index} className="tag">{tag}</span>
