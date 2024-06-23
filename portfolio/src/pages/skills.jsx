@@ -11,7 +11,7 @@ const skillsData = {
 const Skills = () => {
   return (
     <section className="skills-section skills-page" id='skills'>
-      <h1>My Skills</h1>
+      <h1>Technical Skills</h1>
       <p>A showcase of my technical abilities and tools I&apos;ve worked with.</p>
       <div className="skills-container">
         {Object.keys(skillsData).map((category, index) => (

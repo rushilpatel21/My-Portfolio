@@ -14,7 +14,7 @@ const certificatesData = [
 const Certificates = () => {
   return (
     <section className="certificates-section certificates-page" id="certificates">
-      <h1>My Certificates</h1>
+      <h1>Relevant Certificates</h1>
       <div className="certificates-container">
         {certificatesData.map((certificate, index) => (
           <div key={index} className="certificate-card">
