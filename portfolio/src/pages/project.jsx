@@ -5,7 +5,7 @@ import linkIcon from '../assets/link.png';
 const projects = [
   {
     title: 'CivicPulse',
-    description: '(WIP) Currently working on it :) .',
+    description: '(WIP) Currently working on it :) (PS: I know the github repo is private!!! <3 ) .',
     tags: ['ExpressJS', 'ReactJS', 'NodeJS' ,'Firebase Database', 'Google Cloud Services', 'Firebase Auth','Gemini', 'MUI', 'Multer' ],
     github: 'https://github.com/rushilpatel21/CivicPulse',
     link: 'https://civicpulse.vercel.app/',
