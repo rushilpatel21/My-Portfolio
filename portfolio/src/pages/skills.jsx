@@ -3,9 +3,10 @@ import '../styles/skills.css';
 const skillsData = {
   Languages: ['C++', 'Java', 'JavaScript', 'Python', 'C'],
   Frameworks: ['ReactJS', 'NodeJS', 'ExpressJS'],
-  Databases: ['MongoDB', 'SQL*Plus', 'AWS DynamoDB'],
-  "Cloud Services": ['AWS Bedrock', 'AWS Lambda', 'Render', 'Vercel'],
-  Tools: ['VS Code', 'Postman','Git','MongoDBCompass','Jupyter Notebook','Google Colab']
+  Databases: ['MongoDB', 'SQL*Plus', 'AWS DynamoDB', 'Firestore Database'],
+  "Cloud Services": ['AWS Bedrock', 'AWS Lambda', 'Firebase Authentication', 'Render', 'Vercel'],
+  Tools: ['VS Code', 'Postman','Git','MongoDBCompass','Jupyter Notebook','Google Colab'],
+  "Operating Systems": ['Linux', 'MacOS', 'Windows']
 };
 
 const Skills = () => {
