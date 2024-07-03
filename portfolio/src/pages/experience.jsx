@@ -1,8 +1,22 @@
 import '../styles/experience.css';
 import technoteryLogo from '../assets/technotery.png';
+import amazonLogo from '../assets/amazon.png';
 import linkIcon from '../assets/link.png';
 
 const experienceData = [
+  {
+    name: 'Amazon',
+    position: 'Amazon Machine Learning Summer School',
+    description: [
+      'This program offers an incredible opportunity to deepen my understanding of key Machine Learning (ML) topics, from fundamental concepts to practical industry applications directly from Amazon Scientists.',
+      
+    ],
+    image: amazonLogo,
+    startDate: '6th July 2024',
+    endDate: '28th July 2024',
+    tags: ['Supervised Learning', 'Deep Neural Networks', 'Dimensionality Reduction', 'Unsupervised Learning', 'Sequential Learning', 'Reinforcement Learning', 'Generative AI and LLMs', 'Causal Inference'],
+    link: 'https://amazonmlsummerschoolindia.splashthat.com/',
+  },
   {
     name: 'Technotery',
     position: 'Assistant Software Engineer - Trainee',
@@ -16,7 +30,7 @@ const experienceData = [
     endDate: '5th July 2024',
     tags: ['AWS Bedrock', 'AWS DynamoDB', 'AWS Lambda', 'ExpressJS', 'NodeJS', 'ReactJS'],
     link: 'https://www.technotery.com',
-  }
+  },
 ];
 
 const Experience = () => {
