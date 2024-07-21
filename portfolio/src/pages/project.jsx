@@ -39,6 +39,13 @@ const projects = [
     link: '#',
   },
   {
+    title: 'Healthcare Analytics (DBMS)',
+    description: 'Aimed to analyze the prevalence and trends of transfusion-transmitted infections (TTIs) among blood donors, leveraging database technologies and data visualization.',
+    tags: ['SQL', 'DBMS', 'Research'],
+    github: 'https://github.com/rushilpatel21/Healthcare-Analytics-for-Patient-Care-DBMS-Research-Paper',
+    link: '#',
+  },
+  {
     title: 'Client Connect',
     description: 'A Hackathon Project that aims to bridge the gap between consumers and retailers.',
     tags: ['Flutter', 'SQLite'],

@@ -2,6 +2,10 @@ import '../styles/certificate.css';
 
 const certificatesData = [
   {
+    name: 'Google AI Essentials (Coursera)',
+    description: 'Passed the Google AI Essentials Course with 96% Grade',
+  },
+  {
     name: '1x Academic Excellence Certificate (Nirma University)',
     description: 'Awarded for scoring 9.43 SGPA in SEM - III',
   },
