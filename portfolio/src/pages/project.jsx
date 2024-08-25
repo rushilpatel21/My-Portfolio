@@ -5,10 +5,10 @@ import linkIcon from '../assets/link.png';
 const projects = [
   {
     title: 'CivicPulse',
-    description: '(WIP) Currently working on it :) .',
-    tags: ['ExpressJS', 'ReactJS', 'NodeJS' ,'Firebase Database', 'Google Cloud Services', 'Firebase Auth','Gemini', 'MUI', 'Multer' ],
+    description: 'Developed a responsive website, leveraging Firebase, Google Cloud Platform (GCP) and Gemini API to automatically route community issues to the appropriate departments for efficient resolution.',
+    tags: ['ExpressJS', 'ReactJS', 'NodeJS' ,'Firebase Database','Gemini' , 'Google Cloud Services', 'Firebase Auth', 'MUI', 'Multer' ],
     github: 'https://github.com/rushilpatel21/CivicPulse',
-    link: '#',
+    link: 'https://civicpulse.vercel.app/',
   },
   {
     title: 'FitFreak',
