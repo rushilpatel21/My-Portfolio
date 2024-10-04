@@ -11,6 +11,7 @@ const Navbar = () => {
     'projects',
     'skills',
     'education',
+    'achievements',
     'certificates',
     'contact'
   ];
@@ -25,6 +26,7 @@ const Navbar = () => {
       <Link className={`navbar-options ${activeSection === 'projects' ? 'active' : ''}`} smooth to="#projects">Projects</Link>
       <Link className={`navbar-options ${activeSection === 'skills' ? 'active' : ''}`} smooth to="#skills">Skills</Link>
       <Link className={`navbar-options ${activeSection === 'education' ? 'active' : ''}`} smooth to="#education">Education</Link>
+      <Link className={`navbar-options ${activeSection === 'achievements' ? 'active' : ''}`} smooth to="#achievements">Achievements</Link>
       <Link className={`navbar-options ${activeSection === 'certificates' ? 'active' : ''}`} smooth to="#certificates">Certificates</Link>
       <Link className={`navbar-options ${activeSection === 'contact' ? 'active' : ''}`} smooth to="#contact">Contact</Link>
     </nav>

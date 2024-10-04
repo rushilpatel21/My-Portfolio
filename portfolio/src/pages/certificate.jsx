@@ -2,6 +2,14 @@ import '../styles/certificate.css';
 
 const certificatesData = [
   {
+    name: 'Supervised Machine Learning: Regression and Classification',
+    description: 'Supervised Machine Learning: Regression and Classification (Coursera, DeepLearning.AI, Stanford)',
+  },
+  {
+    name: 'JP Morgan Chase Software Engineering Job Simulation (Forage)',
+    description: 'JP Morgan Chase Software Engineering Job Simulation (Forage)',
+  },
+  {
     name: 'Google AI Essentials (Coursera)',
     description: 'Passed the Google AI Essentials Course with 96% Grade',
   },

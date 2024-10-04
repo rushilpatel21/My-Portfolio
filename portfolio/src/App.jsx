@@ -7,6 +7,7 @@ import Projects from './pages/project.jsx';
 import Skills from './pages/skills.jsx';
 import Education from './pages/education.jsx';
 import Certificates from './pages/certificate.jsx';
+import Achievements from './pages/achievements.jsx';
 import Contact from './pages/contact.jsx';
 import CustomCursor from './components/customCursor.jsx';
 import { BrowserRouter as Router } from 'react-router-dom';
@@ -26,6 +27,7 @@ function App() {
           <Projects />
           <Skills />
           <Education />
+          <Achievements />
           <Certificates />
           <Contact />
         </main>
